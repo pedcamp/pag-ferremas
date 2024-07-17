@@ -1,0 +1,11 @@
+.btn{
+    margin-left: 50px;
+    border-color: black;
+    border-radius: 10px;
+    background-color: black;
+    width: 200px;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+}

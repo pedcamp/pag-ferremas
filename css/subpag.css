@@ -1,0 +1,28 @@
+#ost {
+    display: flex;
+    justify-content: space-between; /* Espacio entre el título y los íconos */
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.title {
+    flex: 1; /* Permite que el título ocupe el espacio disponible */
+    text-align: center; /* Centra el texto */
+    margin: 0; /* Elimina el margen */
+}
+
+.icon, .icon1 {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 6px;/* Espacio entre los íconos */
+}
+.icon:hover, .icon1:hover {
+        background-color: rgba(0, 0, 0, 0.729);
+        cursor: pointer;
+}
+
+#url{
+    clear: both;
+}
