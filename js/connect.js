@@ -15,7 +15,7 @@ function getdatos(metod){
 };
 
 function fichas(data){
-    console.log(data)
+    const carrito=document.getElementById('producto')
     const content=document.getElementById('ost');
     
     const container = document.getElementById('url');
@@ -96,7 +96,8 @@ function fichas(data){
         Card.appendChild(TitleCard);
         Card.appendChild(DescCard);
         Card.appendChild(CostoCard);
-        container.appendChild(Card)
+        container.appendChild(Card);
+
     };
     
 };
